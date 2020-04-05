@@ -1,0 +1,26 @@
+\documentclass[10pt,a4paper,onecolumn]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[width=18.00cm, height=26.00cm]{geometry}
+\title{Laboratorio 4\\Algoritmos}
+\author{Gabriel Octavio Lozano Pinzón}
+
+\begin{document}
+\maketitle
+\section{Obtener las mejores empresas para invertir}	
+Deseamos escoger las empresas que nos darían la mayor ganancia si invirtieramos en ella en un tiempo anterior. Para este ejercicio manejamos $6$ meses y $2$ años. Esta tarea es una tarea repetitiva y monotona si se usan medios usuales como Yahoo Finance. Se puede simplificar bastantes usando un algoritmo en Quantopian que nos permitiría automatizar esta tarea para cualquier intervalo de tiempo y analizar el crecimiento de todas las empresas para las que hay información disponible al mismo tiempo.\\
+Para resolver la tarea usamos un Notebook en los servicios provistos por Quantopian.  Comenzamos leyendo el universo de las empresas con el siguiente código.
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.8\linewidth]{lectura_empresas}
+	\caption {Código en Notebook de Quantopian para conocer la lista del universo de las empresas con las que se puede hacer trading.}
+	\label{fig:lecturaempresas}
+\end{figure}
+
+
+\end{document}

@@ -14,6 +14,8 @@ cero.
 b) Evidentemente es lo mismo a probar
 
 ![formula](https://render.githubusercontent.com/render/math?math=|\lim_{x\to\infty} \frac{n^k}{p(n)} | < \infty)
+<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+
 
 lo cual es obvio pues podemos multiplicar numerador y denominador por 
 $\frac{1}{n^d}$ y hacer las fracciones de tipo $\frac{1}{n^m}$ tender a

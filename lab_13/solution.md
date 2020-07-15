@@ -12,7 +12,9 @@ lo cual es obvio pues podemos multiplicar numerador y denominador por
 $\frac{1}{n^k}$ y hacer las fracciones de tipo $\frac{1}{n^m}$ tender a
 cero. 
 b) Evidentemente es lo mismo a probar
-$$|\lim_{x\to\infty} \frac{n^k}{p(n)} | < \infty$$
+
+![formula](https://render.githubusercontent.com/render/math?math=|\lim_{x\to\infty} \frac{n^k}{p(n)} | < \infty)
+
 lo cual es obvio pues podemos multiplicar numerador y denominador por 
 $\frac{1}{n^d}$ y hacer las fracciones de tipo $\frac{1}{n^m}$ tender a
 cero. 

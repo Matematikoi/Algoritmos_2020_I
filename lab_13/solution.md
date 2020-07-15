@@ -72,4 +72,120 @@ c) Podemos usar limites en el numerador g(n) y en el denominador c elevado a la 
 
 # Punto 4
 
+## naive primality test
+worst case: O(sqrt(n))
 
+best case:  O(sqrt(n))
+
+average case: O(sqrt(n))
+
+space complexity: O(1)
+
+## binary search
+worst case: O(log(n))
+
+best case:  O(1)
+
+average case: O(log(n))
+
+space complexity: O(1)
+
+## Finding smallest or largest element in unsorted array
+worst case: O(n)
+
+best case:  O(n)
+
+average case: O(n)
+
+space complexity: O(1)
+
+## Kadane
+worst case: O(n)
+
+best case:  O(n)
+
+average case: O(n)
+
+space complexity: O(1)
+## Criva de eratostenes
+worst case: O(n log(n) (log log (n)))
+
+best case:  O(n log(n) (log log (n)))
+
+average case: O(n log(n) (log log (n)))
+
+space complexity: O(n)
+## merge sort
+worst case: O(nlog(n))
+
+best case:  O(nlog(n))
+
+average case: O(nlog(n))
+
+space complexity: O(n)
+## quick sort
+worst case: O(n^2)
+
+best case:  O(nlog(n))
+
+average case: O(n log(n)) (en caso que se parta en 3 sería O(n))
+
+space complexity: O(n)
+## Tim sort
+worst case: O(nlog(n))
+
+best case:  O(n)
+
+average case: O(nlog(n))
+
+space complexity: O(n)
+## convex hull (D&C)
+worst case: O(nlog(n))
+
+best case:  O(nlog(n))
+
+average case: O(nlog(n))
+
+space complexity: O(n)
+## Insertion Sort
+worst case: O(n^2)
+
+best case:  O(n)
+
+average case: O(n^2)
+
+space complexity: O(n)
+## Dijkstra
+siendo V la cantidad de nodos y E la cantidad de aristas
+worst case: O((V+E) log(V))
+
+best case:  O(1)
+
+average case: O((V+E) log(V))
+
+space complexity: O(V)
+## Naive matrix multiplication
+donde se multiplican matrices cuadradas de n columnas y n filas
+worst case: O(n^3)
+
+best case:  O(n^3)
+
+average case: O(n^3)
+
+space complexity: O(n^2)
+## Calculate the permutations of n distinct elements without repetitions
+worst case: O(n)
+
+best case:  O(n)
+
+average case: O(n)
+
+space complexity: O(1)
+## Calculate the permutations of n distinct elements with repetitions	
+worst case: O(n)
+
+best case:  O(n)
+
+average case: O(n)
+
+space complexity: O(1)
